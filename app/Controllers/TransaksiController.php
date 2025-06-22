@@ -23,7 +23,7 @@ class TransaksiController extends BaseController
         $this->cart = \Config\Services::cart();
         $this->client = new \GuzzleHttp\Client();
         $this->apiKey = env('COST_KEY');
-        $this->apiKey = 'COST_KEY';
+        $this->apiKey = 'NOV3cYuaf8d28757c8910fc5xKeCCsKI';
 
         $this->transaction = new TransactionModel();
         $this->transaction_detail = new TransactionDetailModel();
